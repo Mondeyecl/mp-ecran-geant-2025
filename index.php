@@ -51,3 +51,5 @@ $url = 'affichage.php?id=' . '1' . '&tablename=' . $donnees['nomboucle'];
 </script>
 
 </html>
+<!-- test>
+ 
