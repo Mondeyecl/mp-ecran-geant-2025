@@ -1,0 +1,115 @@
+body
+{   
+    font-family: Century Gothic;
+    background-image: url("Images/NLambiance.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color:#dcdcdc;
+    display: flex;
+    flex-direction : column;
+    overflow:hidden;
+}
+
+#header
+{  
+    display : flex;
+}
+
+#page 
+{ 
+    display:flex; 
+    flex-direction:column; 
+}
+	
+#horloge 
+{
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 11vh;	
+    z-index:-1;
+    font-weight : bold ;
+    position: absolute;
+    top : 3%;
+    right : 1%;
+}
+
+ .bande
+ {
+    font-family:"Century Gothic";
+    font-size:6vh;
+    color:white; 
+    font-weight : bold;
+    position: absolute; 
+    bottom : 0%;
+    right : 0%;
+    left:0%;
+}
+
+	
+
+#content 
+{
+flex-grow:1; /* 4 */
+}
+
+.question
+{
+font-size:400%;
+text-align : center;
+}
+
+.reponse 
+{
+font-size : 400%;
+text-align : center;
+margin-top : 2.5%;
+margin-bottom : 0%;
+}
+
+.Titre
+{
+width:70%;
+font-family: Agency FB;
+text-align:center;
+font-size:900%;
+height : 5%;
+margin-bottom:5%;
+margin-top: 2.5%;
+margin-left: 16%;
+color : white;
+font-weight: bold;
+}
+
+.important
+{
+color : white;
+font-weight : bold;
+}
+
+ #timer 
+ {
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 11vh;    
+    z-index:-1;
+    float:center;
+    font-weight : bold ;
+}
+
+img 
+{
+    border: 3px white solid;
+}
+
+iframe 
+{
+    border: 3px white solid;
+}
+
+#logo{
+    position:absolute;
+    top : 1%;
+    left:3%;
+    width:20%;
+    border:none;
+}

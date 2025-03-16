@@ -1,0 +1,43 @@
+#departs{
+    position:absolute;
+    right:10%;
+    width:80%;
+    height:50%;
+    top:20%;
+    border-spacing:0px;
+    color:white;
+    text-align:center;
+    font-size:2.5vw;
+    font-family:Calibri;
+}
+.line1{
+    background-color:darkblue;
+}
+.line2{
+    background-color:rgb(37, 78, 167);
+}
+.cell1{
+    width:6%;
+}
+.cell1 div{
+    position:relative;
+    border-radius:20%;
+    border: 1px solid white;
+    width:60%;
+    left:20%;
+    background-color:#a3238e;
+    color:black;
+}
+.cell2{
+    color:goldenrod;
+    width:15%;
+    
+}
+.cell3{
+    width:20%;
+    text-align:left;
+}
+
+.sport{
+    color:goldenrod;
+}

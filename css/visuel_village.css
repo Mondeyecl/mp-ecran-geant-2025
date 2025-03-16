@@ -1,0 +1,60 @@
+#Image1
+{  
+	position:absolute;
+    left:5%;
+    bottom:12%;
+    width:45%;
+}
+
+#Image2
+{  
+	position:absolute;
+    right:15%;
+    bottom:12%;
+    width:31%;
+}
+
+#blink
+{
+    position:absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    right:17%;
+    bottom:55%;
+    font-size:1.5vh;
+    color:rgb(255, 251, 6);
+    transition:1s;
+}
+
+#text
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:3vh;
+    position : absolute;
+    left: 5%;
+    top:17%;
+    color:white
+}
+
+#list
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2vh;
+    position : absolute;
+    left: 2%;
+    top : 25%;
+    color :white;
+    text-align:left;
+    border-spacing:3vw 2vh;
+    list-style:none
+}
+#list li
+{
+    display: inline-block;
+    background-image: url("../Content/Images/griffe.png");
+    background-size:2.5vw;
+    background-repeat:no-repeat;
+    padding-left:3vw;
+    background-position: left center;
+    padding-top:1vw; margin-top:-1vw;
+    padding-bottom:1vw; margin-bottom:-1vw;
+}

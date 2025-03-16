@@ -1,0 +1,33 @@
+#Image1
+{  
+	position:absolute;
+    left:0%;
+    bottom:0%;
+    height:100%;
+    width:33.3%;
+}
+
+#Image2
+{  
+	position:absolute;
+    left:33.3%;
+    bottom:0%;
+    height:100%;
+    width:33.4%;
+}  
+
+#Image3
+{  
+	position:absolute;
+    right:0%;
+    bottom:0%;
+    height:100%;
+    width:33.3%;
+}    
+#footer
+{
+    display:none;
+}
+img{
+    border:none;
+}
